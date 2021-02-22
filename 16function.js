@@ -4,7 +4,9 @@ arrow function
 generators
 IFFI
 
-////////
+/////////////
+function
+/////////////
 var a = 10
 var b = 20
 a+b
@@ -57,4 +59,18 @@ function isEven(userInput){
     }
     
     return output
+}
+
+/////////////
+method
+/////////////
+var add2=function(a,b){
+    return a+b;
+}
+
+////////////
+arrow
+////////////
+add3 = (a,b,c) => {
+    return a+b+c;
 }
