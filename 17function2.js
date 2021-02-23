@@ -1,18 +1,14 @@
-//////////
-IFFI
-//////////
 /*function sayHi(){
     console.log("Hiii")
 }
 sayHi()*/
 
+////IFFI
 (function() {
     console.log('My Iffi program.');
 }())
 
-//////////
-Generator
-//////////
+/////Generator
 function loop(userInput){
     for(i=0;i<userInput;i++){
         console.log(i)

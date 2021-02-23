@@ -61,16 +61,21 @@ function isEven(userInput){
     return output
 }
 
+function add(a,b){
+    return a+b
+}
+add(1,2)
+
 /////////////
 method
 /////////////
 var add2=function(a,b){
     return a+b;
 }
+add2(4,5)
 
 ////////////
 arrow
 ////////////
-add3 = (a,b,c) => {
-    return a+b+c;
-}
+add3 = (a,b,c) => {return a+b+c;}
+add3(5,4,8)
