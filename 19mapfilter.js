@@ -1,4 +1,4 @@
-> map is ues to iterate over the Array
+> map is use to iterate over the Array
 > it always return same length of output as input Array
 > it is use to apply logics(sum,mul,divide), return html with data binding
 

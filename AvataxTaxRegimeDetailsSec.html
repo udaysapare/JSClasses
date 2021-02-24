@@ -1,0 +1,44 @@
+<html master="src/Framework/masters/compiled/common.html">
+	<body>
+	    <content for="FormTitle">
+        
+	    </content>
+	    <content for="BodyContent">
+			<div>{{>text2 uid='SM_AV_TAX_REGM_SEC_1' psid='$ICField1' }}</div><div class="mt20" sm-id="Countries_4" sm-source="div[id*='divSM_AV_TXREGM_VW$']" sm-content="id" >
+	<div>
+		{{>scrollHeader scroll_uid="Countries_4" scroll_psid="SM_AV_TXREGM_VW"}}
+	</div>
+	<div>
+		<div>{{>dropdownWithLabel2 uid='Country_5' psid='SM_AV_TXREGM_VW_SM_AV_COUNTRY'  notLevel0='true'  parent='Countries_4' }}</div><div class="container-grid mt20" sm-id="SM_AV_TAX_REGM_SEC_6" sm-source="div[id*='divSM_AV_TAX_REGM$']" sm-content="id" sm-skip-data-title-conv="true"  sm-parent='Countries_4' >
+<div>
+{{>scrollHeader scroll_uid="SM_AV_TAX_REGM_SEC_6" scroll_psid="SM_AV_TAX_REGM"}}
+</div>
+	<table class="table table-hover table-striped">
+		<thead>
+			<tr>
+			<th sm-id='ApplicationName_7_th' sm-source='SM_AV_TAX_REGM_SM_AV_APPL_NAME' sm-is-grid-col='true' sm-parent='SM_AV_TAX_REGM_SEC_6'></th>
+            <th sm-id='TaxCode_8_th' sm-source='SM_AV_TAX_REGM_SM_AV_TAX_CODE' sm-is-grid-col='true' sm-parent='SM_AV_TAX_REGM_SEC_6'></th>
+            <th sm-id='TaxRegimeCode_9_th' sm-source='SM_AV_TAX_REGM_SM_AV_TAX_REG_CODE' sm-is-grid-col='true' sm-parent='SM_AV_TAX_REGM_SEC_6'></th>
+            <th sm-id='JurisdictionCodePrefix_10_th' sm-source='SM_AV_TAX_REGM_SM_AV_JURIS_PREFIX' sm-is-grid-col='true' sm-parent='SM_AV_TAX_REGM_SEC_6'></th>
+			<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr sm-id="SM_AV_TAX_REGM_SEC_6_tr" sm-source="tr[id^='trSM_AV_TAX_REGM$']" sm-parent="SM_AV_TAX_REGM_SEC_6">
+			<td>{{>dropdown2 uid='ApplicationName_7' psid='SM_AV_TAX_REGM_SM_AV_APPL_NAME'  notLevel0='true'  parent='SM_AV_TAX_REGM_SEC_6_tr' }}</td>
+            <td>{{>editbox2 uid='TaxCode_8' psid='SM_AV_TAX_REGM_SM_AV_TAX_CODE'  notLevel0='true'  parent='SM_AV_TAX_REGM_SEC_6_tr' }}</td>
+            <td>{{>editbox2 uid='TaxRegimeCode_9' psid='SM_AV_TAX_REGM_SM_AV_TAX_REG_CODE'  notLevel0='true'  parent='SM_AV_TAX_REGM_SEC_6_tr' }}</td>
+            <td>{{>editbox2 uid='JurisdictionCodePrefix_10' psid='SM_AV_TAX_REGM_SM_AV_JURIS_PREFIX'  notLevel0='true'  parent='SM_AV_TAX_REGM_SEC_6_tr' }}</td>
+			<td>
+				{{>gridAddBtn scroll_psid="SM_AV_TAX_REGM" parent="SM_AV_TAX_REGM_SEC_6_tr"}}
+				{{>gridDeleteBtn scroll_psid="SM_AV_TAX_REGM" parent="SM_AV_TAX_REGM_SEC_6_tr"}}
+			</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+	</div>
+</div>
+		</content>
+	</body>
+</html>
