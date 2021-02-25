@@ -17,13 +17,13 @@ Ecma 7
 > ternery Operations
 > switch
 > Date
+> let, const
 > array
 > regex
-> loops
 > Functions
+> loops
 > Es6
     > maps,filter
-> let, const
 > Clousers
 > Hoisting
 > JSON
@@ -37,22 +37,35 @@ Ecma 7
 > Prototypes
 > Es6
     > classes
+////////////////////
 > DoM
 > Calc
 > Geolocation
+> screen
+
 > Form validation
 > Event
+> Call/Apply
+
 > currenyConvertor
 > promis
 > async await
-> screen
+> Basic Jquery
+
 > Dynamic DropDown
 > Progress bar
-> Call/Apply
 > Weather application
 > ajax
-> Baisc Jquery
+
 > DataTables
 > fabonicci
 > factorial
 > palindrome
+
+/////////
+step for package.JSON
+/////////////
+> install nodejs(https://nodejs.org/en/)
+> go inside the folder with terminal
+> type npm init -y
+> npm i @babel/core @babel/preset-env @babel/register

@@ -54,7 +54,7 @@ true
 //////////////
 var calc={
     sum:function(a,b){return a+b},
-    sub:(a,b) => {return a+b}
+    sub:(a,b) => {return a-b}
 }
 undefined
 calc.sum(1,2)
