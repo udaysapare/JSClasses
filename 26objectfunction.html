@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Uday Testing</h2>
+
+<p id="demo"></p>
+
+<script>
+    function language(name, age){
+        this.name=name;
+        this.age=age;
+        this.info=function(){
+            return `The age of ${name} is ${age}.`;
+        }
+    }
+
+    class language2{
+        constructor(name, city){
+            this.name=name;
+            this.city=city;
+        }
+        info2=()=>{
+            return `${this.name} belongs to ${this.city}.`
+        }
+    }
+
+    var a=new language('Uday',37);
+    var b=new language2('Uday','Hyderabad');
+    //console.log(sayHi.greet());
+    document.getElementById("demo").innerHTML = a.info()+'<br>'+ b.info2();
+</script>
+
+</body>
+</html>

@@ -21,7 +21,7 @@ class language1{
     }
 
     greet=()=>{
-        return `Say Hi`
+        return `Say Hi ${this.name}`
     }
 }
 
