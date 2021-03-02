@@ -5,6 +5,6 @@ window.innerWidth
 screen.heigh
 undefined
 screen.height
-900
+950
 screen.width
 1440
