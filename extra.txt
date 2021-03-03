@@ -47,8 +47,6 @@ Ecma 7
 > Form validation
 > Event
 
-////////////////
-
 > Call/Apply
 > Baisc Jquery
 > Dynamic DropDown
